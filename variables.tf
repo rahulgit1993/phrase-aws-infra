@@ -5,7 +5,7 @@ variable "ami_id" {
 
 variable "access_key" {
     type = string
-    default = "AKIAU6WQW3NJRZH6VNE7"
+    default = "XXXXXXXXXXXXXXXXX"
 }
 
 variable "secret_key" {
