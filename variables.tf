@@ -10,7 +10,7 @@ variable "access_key" {
 
 variable "secret_key" {
     type = string
-    default = "/2Pc8R11BDX/koy0Ju0QL0/ByiRAYnJg9BrDX5rj"
+    default = "xxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 
 variable "instance" {
