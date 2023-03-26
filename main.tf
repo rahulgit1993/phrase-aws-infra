@@ -156,7 +156,7 @@ data "aws_ami" "ubuntu-linux-2004" {
 }
 
 #Create a new EC2 launch configuration
-resource "aws_instance" "flask-app" {
+resource "aws_instance" "test-instance" {
 ami                    = data.aws_ami.ubuntu-linux-2004.id
 instance_type               = var.instance
 #availability_zone           = var.region           
