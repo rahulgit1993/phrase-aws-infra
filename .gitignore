@@ -1,0 +1,10 @@
+*.tfstate
+*.tfstate*
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Directories
+.terraform/
+
+# Ignored Terraform files
+*gitignore*.tf
